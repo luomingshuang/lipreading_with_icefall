@@ -1,0 +1,11 @@
+icefall.egg-info/
+data
+__pycache__
+path.sh
+exp
+exp*/
+*.pt
+download
+*.bak
+*-bak
+*bak.py

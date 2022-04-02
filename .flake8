@@ -1,0 +1,17 @@
+[flake8]
+show-source=true
+statistics=true
+max-line-length = 80
+per-file-ignores =
+    # line too long
+    egs/librispeech/ASR/*/conformer.py: E501,
+    egs/aishell/ASR/*/conformer.py: E501,
+    egs/tedlium3/ASR/*/conformer.py: E501,
+    # invalid escape sequence (cause by tex formular), W605
+    icefall/utils.py: E501, W605
+
+exclude =
+  .git,
+  **/data/**,
+  icefall/shared/make_kn_lm.py,
+  icefall/__init__.py
