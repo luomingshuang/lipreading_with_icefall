@@ -1,13 +1,19 @@
 <div align="center">
 <img src="https://raw.githubusercontent.com/k2-fsa/icefall/master/docs/source/_static/logo.png" width=168>
 </div>
+
 ## Installation
+
 Please refer to <https://icefall.readthedocs.io/en/latest/installation/index.html>
 for installation.
+
 ## Recipes
+
 Please refer to <https://icefall.readthedocs.io/en/latest/recipes/index.html>
 for more information.
+
 We provide four recipes at present:
+
   - [yesno][yesno]
   - [GRID][grid]
 
