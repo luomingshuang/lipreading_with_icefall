@@ -76,15 +76,20 @@ The WER for this model is:
 
 We provide a Colab notebook to run a pre-trained CombineNet CTC model: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1UmCYX7GwbQ3Ms6SnoAuB8Tov46OD82hb?usp=sharing)
 
+
 ## Deployment with C++
 
 Once you have trained a model in icefall, you may want to deploy it with C++,
 without Python dependencies.
+
 Please refer to the documentation
 <https://icefall.readthedocs.io/en/latest/recipes/librispeech/conformer_ctc.html#deployment-with-c>
 for how to do this.
+
 We also provide a Colab notebook, showing you how to run a torch scripted model in [k2][k2] with C++.
 Please see: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1BIGLWzS36isskMXHKcqC9ysN6pspYXs_?usp=sharing)
+
+
 [GRID_conv3d_map_bigru_ctc]: egs/grid/AVSR/visualnet_ctc_vsr
 [GRID_conv3d_resnet18_bigru_ctc]:egs/grid/AVSR/visualnet2_ctc_vsr
 [GRID_tdnn_lstm_ctc]: egs/grid/AVSR/audionet_ctc_asr
